@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Durga Prasad Keshri | Data Analyst</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family:'Poppins',sans-serif;
+      background:linear-gradient(135deg,#020617,#0f172a);
+      color:#e2e8f0;
+      scroll-behavior:smooth;
+    }
+
+    nav {
+      position:fixed;
+      width:100%;
+      top:0;
+      background:rgba(15,23,42,0.9);
+      padding:15px 30px;
+      display:flex;
+      justify-content:space-between;
+      z-index:1000;
+    }
+
+    nav a {
+      color:#e2e8f0;
+      margin-left:20px;
+      text-decoration:none;
+      font-size:14px;
+    }
+
+    header {
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+    }
+
+    header img {
+      width:150px;
+      height:150px;
+      border-radius:50%;
+      border:3px solid #22c55e;
+      margin-bottom:20px;
+    }
+
+    header h1 { font-size:48px; }
+
+    .typing { color:#22c55e; margin-top:10px; }
+
+    .btn {
+      margin-top:20px;
+      padding:10px 20px;
+      background:#22c55e;
+      color:black;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    section {
+      padding:80px 20px;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    h2 { margin-bottom:25px; }
+
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+
+    .card {
+      background:#1e293b;
+      padding:20px;
+      border-radius:15px;
+      transition:0.3s;
+    }
+
+    .card:hover {
+      transform:translateY(-10px);
+      box-shadow:0 10px 25px rgba(0,0,0,0.5);
+    }
+
+    .card img {
+      width:100%;
+      border-radius:10px;
+      margin-bottom:10px;
+    }
+
+    .stats {
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    footer {
+      text-align:center;
+      padding:40px;
+      color:#94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <div><b>Durga</b></div>
+  <div>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header id="home">
+  <img src="https://image2url.com/r2/default/images/1774002676240-a1f1b3c7-dd96-4bd9-b092-1e59d3b57bee.jpg">
+  <h1>Durga Prasad Keshri</h1>
+  <div class="typing" id="typing"></div>
+  <a href="https://image2url.com/r2/default/documents/1774004346100-2ebfdc5c-3699-42cf-874c-01cd157b9998.pdf" class="btn">Download Resume</a>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>I analyze data to deliver business insights using SQL, Python, Power BI, and Excel. Skilled in EDA, dashboards, and storytelling.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://image2url.com/r2/default/images/1774003595141-ea550720-bca8-4b40-8600-2f0bd38ca174.png">
+      <h3>IPL Analysis</h3>
+      <p>Python EDA with visual insights.</p>
+      <a href="https://github.com/Durga-Data-Analyst/IPL-data-analysis-python">GitHub</a>
+    </div>
+
+    <div class="card">
+      <img src="https://image2url.com/r2/default/images/1774003722357-5e0761d7-3ae1-4a14-91cc-7671c926fc47.png">
+      <h3>Sales Dashboard</h3>
+      <p>Excel interactive dashboard.</p>
+      <a href="https://github.com/Durga-Data-Analyst/hr-attrition-analysis-excel">GitHub</a>
+    </div>
+
+    <div class="card">
+      <img src="https://image2url.com/r2/default/images/1774003934688-cb291528-2062-4613-b5f0-e8415effe7b3.png">
+      <h3>SQL Bookstore</h3>
+      <p>Advanced SQL insights.</p>
+      <a href="https://github.com/Durga-Data-Analyst/online-bookstore-sql-analysis">GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">SQL</div>
+    <div class="card">Python</div>
+    <div class="card">Power BI</div>
+    <div class="card">Advance Excel</div>
+  </div>
+</section>
+
+<section>
+  <h2>GitHub Stats</h2>
+  <div class="stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=Durga-Data-Analyst&show_icons=true">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Durga-Data-Analyst">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: keshirdurgaprasad@gmail.com</p>
+  <p>LinkedIn: www.linkedin.com/in/durga-prasad-data-analyst</p>
+</section>
+
+<footer>
+  <p>© 2026 Durga Prasad Keshri</p>
+</footer>
+
+<script>
+  const text=["Data Analyst","SQL | Python | Power BI | Advance Excel","Turning Data into Insights"];
+  let i=0,j=0,current="",isDeleting=false;
+  function type(){
+    current=text[i];
+    if(!isDeleting){
+      document.getElementById("typing").innerHTML=current.substring(0,j++);
+      if(j>current.length){isDeleting=true;setTimeout(type,1000);return;}
+    } else {
+      document.getElementById("typing").innerHTML=current.substring(0,j--);
+      if(j<0){isDeleting=false;i=(i+1)%text.length;}
+    }
+    setTimeout(type,isDeleting?50:100);
+  }
+  type();
+</script>
+
+</body>
+</html>
